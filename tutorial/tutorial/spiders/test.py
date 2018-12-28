@@ -17,8 +17,8 @@ class TestSpider(CrawlSpider):
                   'https://www.dior.com/es_es',
                   ]
     custom_settings = {
-        'FEED_FORMAT': 'json',
-        'FEED_URI': 'test.json'
+        'FEED_FORMAT': 'csv',
+        'FEED_URI': 'file.csv'
     }
 
 
